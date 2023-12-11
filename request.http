@@ -1,0 +1,36 @@
+POST http://localhost:3000/palabras HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "asin",
+    "definition":"dice trocherias"
+}
+###
+GET http://localhost:3000/palabras HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:3000/palabras/6570c3702a52538b20ed6563 HTTP/1.1
+Content-Type: application/json
+
+###
+DELETE http://localhost:3000/palabras/6570c3702a52538b20ed6563 HTTP/1.1
+Content-Type: application/json
+
+###
+PATCH  http://localhost:3000/palabras/6575a87a0771f5fec7174e72 HTTP/1.1
+Content-Type: application/json
+
+{
+    "status": "PUBLISHED",
+}
+
+###
+POST http://localhost:3000/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "ana6d2r@gmail.com",
+    "name": "ana6d2r",
+    "password": "123456"
+}
