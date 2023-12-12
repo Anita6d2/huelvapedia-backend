@@ -4,10 +4,10 @@
 Este archivo contiene el backend de HuelvapediaApp.
 
 Para levantar el proyecto en modo desarrollador requiere de una MongoDB:
-1- Tener una imagen de "mongo" en Docker Desktop
-2- Configuracion del archivo docker-compose.yml
-3- Ejecutar `docker compose up -d`
-4- Configurar las variables de entorno del archivo .env y ejecutar `npm i @nestjs/config`
+1. Tener una imagen de "mongo" en Docker Desktop
+2. Configuracion del archivo docker-compose.yml
+3. Ejecutar `docker compose up -d`
+4. Configurar las variables de entorno del archivo .env y ejecutar `npm i @nestjs/config`
 
 ## Installation
 

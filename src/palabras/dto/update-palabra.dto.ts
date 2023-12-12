@@ -5,6 +5,11 @@ export class UpdatePalabraDto {
   @IsNotEmpty()
   @IsString()
   @IsOptional()
+  _id: string;
+
+  @IsNotEmpty()
+  @IsString()
+  @IsOptional()
   title?: string;
 
   @IsNotEmpty()

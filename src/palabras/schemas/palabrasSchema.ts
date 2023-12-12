@@ -7,6 +7,8 @@ export enum Status {
 
 @Schema()
 export class Palabras {
+  @Prop({ required: true })
+  _id: string;
   @Prop({ required: true, unique: true })
   title: string;
   @Prop({ required: true })
